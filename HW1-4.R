@@ -19,7 +19,7 @@ probex1
 
 lambda=5
 x=0
-probex2=exp(-lambda)*lambda^x/factorial(x)
+probex2=exp(-lambda)*lambda^x/fac)
 probex2
 
 
