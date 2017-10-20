@@ -39,13 +39,13 @@ json_data = fromJSON(file=json_file)
 x = as.data.frame(json_data)
 
 date1=c(json_data[[1]]$date)
-for (i in 1:50){
+for (i in 1:2354){
   
   date1[i]=c(json_data[[i]]$date)
 }
 
 price1=c(json_data[[1]]$price)
-for (i in 1:50){
+for (i in 1:2354){
   
   price1[i]=c(json_data[[i]]$price)
 }
